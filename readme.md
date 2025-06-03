@@ -5,7 +5,7 @@
 1. [Om projektet](#om-projektet)
 2. [Funktionalitet](#funktionalitet)
 3. [Libaries](#libaries)
-4. [Teknologier](#teknologier)
+4. [Sprog](#sprog)
 5. [Board](#database)
    - [Boardet](#er-diagram)
    - [Sketch](#sketch)
@@ -53,7 +53,7 @@ Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er
 
 ---
 
-## Teknologier
+## Sprog
 - C++
   
 ---
