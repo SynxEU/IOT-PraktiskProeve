@@ -60,10 +60,10 @@ Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er
 
 ## MappeStruktur
 
-/src
-├── main.ino
-├── time.h / time.cpp
-├── temp.h / temp.cpp
+/src \
+├── main.ino \
+├── time.h / time.cpp \
+├── temp.h / temp.cpp \
 ├── humidity.h / humidity.cpp
 ---
 ## Board
