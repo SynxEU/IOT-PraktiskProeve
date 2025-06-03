@@ -4,13 +4,14 @@
 ## Table of Contents
 1. [Om projektet](#om-projektet)
 2. [Funktionalitet](#funktionalitet)
-3. [Libaries](#libaries)
+3. [Libraries](#libaries)
 4. [Sprog](#sprog)
-5. [Board](#database)
-   - [Boardet](#er-diagram)
-   - [Sketch](#sketch)
-6. [Kontakt](#kontakt)
-7. [Licens](#licens)
+5. [Mappe Struktur](#MappeStruktur)
+6. [Board](#board)
+   - [Boardet](#Boardet)
+   - [Port Table](#Port-Table)
+7. [Kontakt](#kontakt)
+8. [Licens](#licens)
 
 ---
 
@@ -26,7 +27,7 @@ Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er
 
 ## Funktionalitet
 
-- **OLed skræm**
+- **OLed skærm**
 - **Målinger**
     - Temperatur
     - Luftfugtighed
@@ -36,12 +37,12 @@ Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er
     - Temperatur
     - Luftfugtighed
 - **Knapper**
-    - Til at scroll gennemn menu
+    - Til at scroll gennem menu
     - Til at vælge et item på den menu
 
 ---
 
-## Libaries
+## Libraries
 
 - [**RTCLib V2.1.4**](https://docs.arduino.cc/libraries/rtclib/#Compatibility)
 - [**SPI Built-In**](https://docs.arduino.cc/language-reference/en/functions/communication/SPI/)
@@ -55,7 +56,15 @@ Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er
 
 ## Sprog
 - C++
-  
+---
+
+## MappeStruktur
+
+/src
+├── main.ino
+├── time.h / time.cpp
+├── temp.h / temp.cpp
+├── humidity.h / humidity.cpp
 ---
 ## Board
 
