@@ -42,13 +42,13 @@ Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er
 
 ## Libaries
 
-- [**RTCLib**](https://docs.arduino.cc/libraries/rtclib/#Compatibility)
-- [**SPI**](https://docs.arduino.cc/learn/communication/spi/)
-- [**Wire**](https://docs.arduino.cc/language-reference/en/functions/communication/wire/)
-- [**Adafruit_GFX**](https://docs.arduino.cc/libraries/adafruit-gfx-library/)
-- [**Adafruit_SSD1306**](https://docs.arduino.cc/libraries/adafruit-ssd1306/)
-- [**DHT**](https://projecthub.arduino.cc/arcaegecengiz/using-dht11-12f621)
-- [**EasyButtons**](https://docs.arduino.cc/libraries/easybutton/)
+- [**RTCLib V2.1.4**](https://docs.arduino.cc/libraries/rtclib/#Compatibility)
+- [**SPI Built-In**](https://docs.arduino.cc/language-reference/en/functions/communication/SPI/)
+- [**Wire Built-In**](https://docs.arduino.cc/language-reference/en/functions/communication/wire/)
+- [**Adafruit_GFX V1.12.1**](https://docs.arduino.cc/libraries/adafruit-gfx-library/)
+- [**Adafruit_SSD1306 V2.5.14**](https://docs.arduino.cc/libraries/adafruit-ssd1306/)
+- [**DHT V1.4.6**](https://projecthub.arduino.cc/arcaegecengiz/using-dht11-12f621)
+- [**EasyButtons V2.0.3**](https://docs.arduino.cc/libraries/easybutton/)
 
 ---
 
