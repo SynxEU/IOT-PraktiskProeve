@@ -5,11 +5,12 @@
 1. [Om projektet](#om-projektet)
 2. [Funktionalitet](#funktionalitet)
 3. [Libaries](#libaries)
-4. [Board](#database)
+4. [Teknologier](#teknologier)
+5. [Board](#database)
    - [Boardet](#er-diagram)
    - [Sketch](#sketch)
-8. [Kontakt](#kontakt)
-10. [Licens](#licens)
+6. [Kontakt](#kontakt)
+7. [Licens](#licens)
 
 ---
 
@@ -52,6 +53,10 @@ Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er
 
 ---
 
+## Teknologier
+- C++
+  
+---
 ## Board
 
 Nedenfor ses både mit board og en port tabel, der illustrerer boardets setup:
