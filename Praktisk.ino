@@ -44,6 +44,12 @@ int selected_Item = 0; // We start on the first selection
 bool menuSelected = false; // Swtiches between menu and selected item
 
 // Funtion ProtoTyping
+void menu();
+void itemHovered();
+void menuScroll();
+void menuActivation();
+void activationButtonISR();
+void scrollButtonISR();
 
 void setup() {
   Serial.begin(9600);
@@ -82,7 +88,7 @@ void setup() {
   scrollBtn.onPressed(menuScroll);
   activationBtn.onPressed(menuActivation);
 
-  // Interrupts if needed
+  // Makes sure i don't have to check the state of the buttons in the loop
   if(scrollBtn.supportsInterrupt()){
     scrollBtn.enableInterrupt(scrollButtonISR);
   }
