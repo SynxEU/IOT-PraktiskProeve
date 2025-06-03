@@ -15,9 +15,9 @@
 
 ## Om projektet
 
-Dette projekt er en del af et intelligent IoT-styret hus, hvor der implementeres en Real Time Clock (RTC) med visning af tid og dato samt måling og visning af temperatur og luftfugtighed. Projektet kombinerer forskellige sensorer og et display for at give brugeren relevante informationer i realtid. \
+Dette projekt er en del af et intelligent IoT-styret hus, hvor der implementeres en Real Time Clock (RTC) med visning af tid og dato samt måling og visning af temperatur og luftfugtighed. Projektet kombinerer forskellige sensorer og et display for at give brugeren relevante informationer i realtid.
 
-En central del af projektet er en brugervenlig menu, hvor man kan vælge mellem at vise enten tid/dato eller temperatur eller luftfugtighed. Menuen kan betjenes med to simple knapper. En til at gå i gennem menuen og en til at udskrive hvad du har valgt \
+En central del af projektet er en brugervenlig menu, hvor man kan vælge mellem at vise enten tid/dato eller temperatur eller luftfugtighed. Menuen kan betjenes med to simple knapper. En til at gå i gennem menuen og en til at udskrive hvad du har valgt.
 
 Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er struktureret i flere filer med brug af header-filer og dokumentation for at sikre vedligeholdelse og genanvendelighed.
 
