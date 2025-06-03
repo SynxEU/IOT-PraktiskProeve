@@ -4,14 +4,15 @@
 ## Table of Contents
 1. [Om projektet](#om-projektet)
 2. [Funktionalitet](#funktionalitet)
-3. [Libraries](#libaries)
+3. [Libraries](#libraries)
 4. [Sprog](#sprog)
-5. [Mappe Struktur](#MappeStruktur)
-6. [Board](#board)
-   - [Boardet](#Boardet)
-   - [Port Table](#Port-Table)
-7. [Kontakt](#kontakt)
-8. [Licens](#licens)
+5. [Hardware](#hardware)
+6. [Mappe Struktur](#mappestruktur)
+7. [Board](#board)
+   - [Boardet](#boardet)
+   - [Port Table](#port-table)
+8. [Kontakt](#kontakt)
+9. [Licens](#licens)
 
 ---
 
@@ -19,7 +20,7 @@
 
 Dette projekt er en del af et intelligent IoT-styret hus, hvor der implementeres en Real Time Clock (RTC) med visning af tid og dato samt måling og visning af temperatur og luftfugtighed. Projektet kombinerer forskellige sensorer og et display for at give brugeren relevante informationer i realtid.
 
-En central del af projektet er en brugervenlig menu, hvor man kan vælge mellem at vise enten tid/dato eller temperatur eller luftfugtighed. Menuen kan betjenes med to simple knapper. En til at gå i gennem menuen og en til at udskrive hvad du har valgt.
+En central del af projektet er en brugervenlig menu, hvor man kan vælge mellem at vise enten tid/dato eller temperatur eller luftfugtighed. Menuen kan betjenes med to simple knapper. En til at gå i gennem menuen og en til at vælge det ønskede menupunkt.
 
 Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er struktureret i flere filer med brug af header-filer og dokumentation for at sikre vedligeholdelse og genanvendelighed.
 
@@ -27,7 +28,7 @@ Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er
 
 ## Funktionalitet
 
-- **OLed skærm**
+- **OLED-skærm**
 - **Målinger**
     - Temperatur
     - Luftfugtighed
@@ -37,8 +38,8 @@ Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er
     - Temperatur
     - Luftfugtighed
 - **Knapper**
-    - Til at scroll gennem menu
-    - Til at vælge et item på den menu
+    - Til at bladre gennem menu
+    - Til at vælge et punkt i menuen
 
 ---
 
@@ -57,14 +58,23 @@ Tid og dato vises i formatet med to cifre (f.eks. 07:06:05), og hele systemet er
 ## Sprog
 - C++
 ---
+## Hardware
+- Arduino Zero
+- Adafruit SSD1306
+- RTC_DS3231
+- DHT11
+- 2x Pushbuttons
+---
 
-## MappeStruktur
+## Mappestruktur
 
-/src \
-├── main.ino \
-├── time.h / time.cpp \
-├── temp.h / temp.cpp \
+```plaintext
+/src
+├── main.ino
+├── time.h / time.cpp
+├── temp.h / temp.cpp
 ├── humidity.h / humidity.cpp
+```
 ---
 ## Board
 
